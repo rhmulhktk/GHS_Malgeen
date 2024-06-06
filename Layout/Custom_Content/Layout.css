@@ -1,0 +1,23 @@
+﻿body 
+{
+}
+
+#TitleName {
+    font-family: Georgia;
+}
+
+#SubTitle {
+    font-family: Comic Sans MS;
+    font-size: 20px
+}
+
+#Ayat {
+    color: darkgrey;
+    font-family: Comic Sans MS;
+}
+
+.Button:hover {
+    background-color: green;
+}
+
+

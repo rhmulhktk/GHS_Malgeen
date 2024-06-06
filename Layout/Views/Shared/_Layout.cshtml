@@ -1,0 +1,98 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Custom_Content/Layout.css" rel="stylesheet" />
+</head>
+<body class="container" style="border-style: double;">
+    <br />
+    <div class="container">
+        <div>
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="~/Images/K.P.K_Govt_logo.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 text-center">
+                    <h2 id="TitleName">
+                        Government High School Malgin Kohat
+                    </h2>
+                    <p id="SubTitle">Khyber Pakhtunkhwa خیبر پختونخواہ PAKISTAN</p>
+                    <img src="~/Images/ayat.png" alt="">
+                    <p id="Ayat">
+                        "Can those who know and those who do not know become equal."
+                    </p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="~/Images/K.P.K_School_logo.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/Home/Index"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li><a href="/Home/AboutUs"><span class="glyphicon glyphicon-heart"></span> About Us</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span class="glyphicon glyphicon-user"></span> Staff
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li role="presentation"><a href="#" role="menuitem"><span class="glyphicon glyphicon-ok-circle" style="color:green"></span> Teaching</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-ok-circle" style="color:green"></span> Non Teaching</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="/Home/Sports"><span class="glyphicon glyphicon-flag"></span> Sports</a></li>
+                        <li><a href="/Home/Gallery"><span class="glyphicon glyphicon-picture"></span> Gallery</a></li>
+                        <li><a href="/Home/Download"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+                        <li><a href="/Home/Download"><span class="glyphicon glyphicon-list-alt"></span> Exam</a></li>
+                        <li><a href="/Home/ContactUs"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+
+                    </ul>
+                </div>
+                </div>
+</nav>
+    </div>
+    
+
+
+    @RenderBody();
+    <br /><br />
+    <div class="container-fluid" style="background-color:black; color:white;">
+        <br />
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+
+            </div>
+            <div class="text-center">
+                <p>
+                    &copy; @DateTime.Now.Year -G.H.S Malgin Kohat <br />
+                    Develop by <a href="https://web.facebook.com/raheemullah010101" target="_blank" title="About Developer">Raheem Ullah</a>
+                </p>
+            </div>   
+        </div>
+    </div>
+
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+</body>
+</html>
